@@ -22,7 +22,7 @@ body {
 /* Header Styles */
 .header {
   margin: 2.5rem auto;
-  z-index: 99;
+  z-index: 999;
   position: relative;
   max-width: 43.75rem;
 }
@@ -41,7 +41,7 @@ body {
 
 /* Main Content Styles */
 .container {
-  z-index: 99;
+  z-index: 999;
   position: relative;
   max-width: 64rem;
   margin: 0 auto;
@@ -105,8 +105,8 @@ body {
 }
 
 .code-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
   gap: 1.5rem;
 }
 
@@ -115,7 +115,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   padding: 1.5rem;
-  /* width: 50%; */
+  width: 50%;
 }
 
 .code-card .code-title {
