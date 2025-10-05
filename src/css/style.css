@@ -22,7 +22,7 @@ body {
 /* Header Styles */
 .header {
   margin: 2.5rem auto;
-  z-index: 999;
+  z-index: 9999;
   position: relative;
   max-width: 43.75rem;
 }
